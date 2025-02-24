@@ -4,7 +4,7 @@ import speech_recognition as sr
 import google.generativeai as genai
 
 # Set up Gemini API (Replace with your API key)
-genai.configure(api_key="AIzaSyDWnKy-Vcu27pQf0a81uXZJvZy2CoQLsbU")
+genai.configure(api_key="API_KEY")
 
 def chat_with_gemini(prompt):
     """Get response from Gemini AI """
